@@ -58,6 +58,8 @@ $(function () {
                 $('.tc.fail').fadeIn();
                 showMask();
             }
+        }else{
+            alert('请输入您要查询的手机号码');
         }
     });
     //第一个确认办理按钮
