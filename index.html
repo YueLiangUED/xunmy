@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>寻盟友获流量</title>
+    <link rel="stylesheet" href="css/reset.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header>
+    <div class="headerPeople"></div>
+    <div class="headerText">
+        <div class="title fir">
+            <div>
+                <p>寻盟友获流量</p>
+            </div>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="headerTextBox">
+            <p>
+                邀请TA一起享4G服务，分享给TA后， 成功加入<i>双方</i>均可获得<i>1GB</i>本地流量
+            </p>
+        </div>
+    </div>
+</header>
+<section>
+    <div class="headerBottom">
+        想查询<i>TA</i>是要寻找的盟友吗？输入手机号码！
+    </div>
+    <div class="middleLineBox"></div>
+    <div class="queryBox">
+        <div>
+            <label for="">手机号码：</label>
+            <input id="writePhoneNum" type="text" placeholder="13XXXXXXXXX">
+        </div>
+        <span id="queryBtn"></span>
+    </div>
+</section>
+<section>
+    <div class="course">
+        <div class="title sec">
+            <div>
+                <p>新盟友加入教程</p>
+            </div>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="step one">
+            <span>1</span>
+            <span></span>
+            <p>现在升级，免费升级换卡不换号，寄到家</p>
+            <span id="doIt-1"></span>
+        </div>
+        <div class="step two">
+            <span>2</span>
+            <span></span>
+            <p>超低价换4G手机</p>
+            <span id="doIt-2"></span>
+        </div>
+    </div>
+    <div class="nameListWrap">
+        <div class="title thr">
+            <div>
+                <p>成功受邀好友名单</p>
+            </div>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="nameListBox">
+            <span></span>
+            <div class="phoneList">
+                <div>
+                    <ul class="allPhoneNum">
+                        <li>138XXXXXXXX</li>
+                        <li>138XXXXXXXX</li>
+                        <li>138XXXXXXXX</li>
+                        <li>138XXXXXXXX</li>
+                        <li>138XXXXXXXX</li>
+                        <li>138XXXXXXXX</li>
+                        <li>138XXXXXXXX</li>
+                        <li>138XXXXXXXX</li>
+                        <li>138XXXXXXXX</li>
+                    </ul>
+                </div>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        <div class="inviteBtn"></div>
+    </div>
+</section>
+<footer>
+    <div>
+        <div class="title fou">
+            <div>
+                <p>活动说明</p>
+            </div>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="instructionBox">
+            <p>
+                父母呼应勿缓父母命行勿懒父母教须敬听父母责须顺承冬则温夏则凊晨则省昏则定出必告反必面居有常业无变事虽小勿擅为苟擅为子道亏物虽小勿私藏苟私藏亲心伤亲所好力为具亲所恶谨为去身有伤贻亲忧德有伤贻亲羞亲爱我孝何难亲憎我孝方贤亲有过谏使更怡吾色柔吾声谏不入悦复谏号泣随挞无怨亲有疾药先尝昼夜侍不离床丧三年常悲咽居处变酒肉绝丧尽礼祭尽诚事死者如事生兄道友弟道恭兄弟睦孝在中财物轻怨何生言语忍忿自泯或饮食或坐走长者先幼者后长呼人即代叫人不在己即到称尊长勿呼名对尊长勿见能路遇长疾趋揖长无言退恭立骑下马乘下车过犹待百步余长者立幼勿坐长者坐命乃坐尊长前声要低低不闻却非宜进必趋退必迟问起对视勿移事诸父如事父事诸兄如事兄
+            </p>
+        </div>
+    </div>
+</footer>
+<div class="tc success">
+    <div class="tcTitle">
+        <div>
+            <p>寻找到盟友</p>
+        </div>
+        <span></span>
+        <span></span>
+    </div>
+    <div class="tcText">
+        <p>TA就是您要寻找的盟友快分享给他邀请他加入到4G盟友群中吧～</p>
+        <span id="succTcBtn"></span>
+    </div>
+</div>
+<div class="tc fail">
+    <div class="tcTitle">
+        <div>
+            <p>非寻找到盟友</p>
+        </div>
+        <span></span>
+        <span></span>
+    </div>
+    <div class="tcText">
+        <p>TA已经是一位4G老盟友了哦～</p>
+        <span id="failTcBtn"></span>
+    </div>
+</div>
+<!--遮罩层-->
+<div class="mask" id="mask"></div>
+</body>
+</html>
+<script src="js/jquery-1.10.1.min.js"></script>
+<script src="js/index.js"></script>

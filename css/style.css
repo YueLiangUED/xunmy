@@ -1,0 +1,415 @@
+header{
+    position: relative;
+    box-sizing: border-box;
+    padding-top: 29.6rem;
+    width: 37.5rem;
+    height: 46.75rem;
+    background: url("../images/headerBg.png") center no-repeat;
+    background-size: cover;
+}
+header .headerPeople{
+    position: absolute;
+    top: 3.8rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 34.1rem;
+    height: 26.4rem;
+    background: url("../images/headerPeople.png") center no-repeat;
+    background-size: cover;
+    z-index: 100;
+}
+.title.fir{
+    height: 1.8rem;
+}
+.title{
+    position: relative;
+    margin: 0 auto;
+    width: 28.8rem;
+}
+.title div{
+    position: absolute;
+    width: 28.8rem;
+    height: 4.3rem;
+    font-size: 2.1rem;
+    font-weight: bold;
+    color: #496ef2;
+    text-align: center;
+    line-height: 4.3rem;
+    background-color: #ffc43f;
+    z-index: 10;
+}
+.title span{
+    position: absolute;
+    display: block;
+    top: 1.15rem;
+    width: 5.45rem;
+    height: 4.3rem;
+    z-index: 1;
+}
+.title span:nth-child(2){
+    left: -3.95rem;
+    background: url("../images/titleBgL.png") center no-repeat;
+    background-size: cover;
+    z-index: 1;
+}
+.title span:nth-child(3){
+    right: -3.95rem;
+    background: url("../images/titleBgR.png") center no-repeat;
+    background-size: cover;
+}
+header .headerText .headerTextBox{
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 4rem  2.7rem 0 2.2rem;
+    width: 31.15rem;
+    height: 12.6rem;
+    background: url("../images/headerMessageBg.png") center no-repeat;
+    background-size: cover;
+}
+header .headerText .headerTextBox p{
+    font-size: 1.9rem;
+    line-height: 2.5rem;
+    text-align: justify;
+    color: #4a71f3;
+}
+header .headerText .headerTextBox p i{
+    font-style: normal;
+    font-size: 2.1rem;
+    font-weight: bold;
+    color: #d92874;
+}
+section .headerBottom{
+    box-sizing: border-box;
+    width: 37.5rem;
+    height: 3.7rem;
+    border: 0.05rem solid #bfccfa;
+    border-left: none;
+    border-right: none;
+    font-size: 1.7rem;
+    line-height: 3.7rem;
+    text-align: center;
+    color: #ffffff;
+    background-color: #496df2;
+}
+section .headerBottom i{
+    font-style: normal;
+    color: #ffc43f;
+}
+section .middleLineBox{
+    width: 37.5rem;
+    height: 1.2rem;
+    background: url("../images/middleLineBg.png") center no-repeat;
+    background-size: cover;
+}
+section .queryBox{
+    position: relative;
+    box-sizing: border-box;
+    padding: 1.5rem 1.75rem 0 1.5rem;
+    width: 37.5rem;
+    height: 6.9rem;
+    background-color: #496df2;
+}
+section .queryBox>div{
+    box-sizing: border-box;
+    padding: 0 0.9rem;
+    width: 21.5rem;
+    height: 3.35rem;
+    background-color: #ffffff;
+}
+section .queryBox>div label{
+    font-size: 1.4rem;
+    line-height: 3.35rem;
+    color: #496df2;
+}
+section .queryBox>div input{
+    padding-left: 1.4rem;
+    width: 11rem;
+    height: 2rem;
+    border: none;
+    border-left: 0.1rem solid #496df2;
+    font-size: 1.4rem;
+}
+::-webkit-input-placeholder{
+    color: #e5e5e5;
+}
+section .queryBox span{
+    position: absolute;
+    top: 1.1rem;
+    right: 1.75rem;
+    display: block;
+    width: 11.4rem;
+    height: 3.8rem;
+    background: url("../images/button-1.png") center no-repeat;
+    background-size: cover;
+}
+section .course{
+    box-sizing: border-box;
+    padding-top: 2rem;
+    width: 37.5rem;
+    height: 38.25rem;
+    background: url("../images/footerBoxBg_05.png") center no-repeat;
+    background-size: cover;
+}
+section .step{
+    position: relative;
+    margin: 0 auto;
+    width: 31.15rem;
+    border-radius: 0.5rem;
+    background-color: #def3ff;
+}
+section .step.one{
+    margin-top: 7.35rem;
+    height: 12.15rem;
+}
+section .step.two{
+    margin-top: 1.5rem;
+    height: 13.1rem;
+}
+section .step span:nth-child(1){
+    position: absolute;
+    top: -1.1rem;
+    display: block;
+    width: 2.9rem;
+    height: 2.9rem;
+    font-size: 2.1rem;
+    text-align: center;
+    line-height: 2.9rem;
+    color: #ffffff;
+    border-radius: 50%;
+    background-color: #d92874;
+}
+section .step span:nth-child(2){
+    position: absolute;
+    display: block;
+}
+section .step.one span:nth-child(2){
+    top: 2.5rem;
+    left: -1rem;
+    width: 17.75rem;
+    height: 8.2rem;
+    background: url("../images/4G-icon.png") center no-repeat;
+    background-size: cover;
+}
+section .step.two span:nth-child(2){
+    top: 2.1rem;
+    left: 1.2rem;
+    width: 15.5rem;
+    height: 9.2rem;
+    background: url("../images/phone-icon.png") center no-repeat;
+    background-size: cover;
+}
+section .step p{
+    position: absolute;
+    top: 2.2rem;
+    right: 1.8rem;
+    width: 12.8rem;
+    font-size: 1.4rem;
+    color: #333333;
+}
+section .step.two p{
+    top: 3.5rem;
+    right: 0;
+}
+section .step span:nth-child(4){
+    position: absolute;
+    right: 2rem;
+    bottom: 2rem;
+    display: block;
+    width: 11.4rem;
+    height: 3.75rem;
+    background: url("../images/button-2.png") center no-repeat;
+    background-size: cover;
+}
+section .nameListWrap{
+    box-sizing: border-box;
+    width: 37.5rem;
+    height: 26.2rem;
+    background: url("../images/footerBoxBg_06.png") center no-repeat;
+    background-size: cover;
+}
+section .nameListWrap .title.thr{
+    height: 4.3rem;
+}
+section .nameListWrap .nameListBox{
+    position: relative;
+    margin: 0 auto;
+    width: 31.2rem;
+    height: 15.4rem;
+    background-color: #def6ff;
+}
+section .nameListWrap .nameListBox>span{
+    position: absolute;
+    top: 3rem;
+    left: 0.7rem;
+    display: block;
+    width: 11.1rem;
+    height: 10.05rem;
+    background: url("../images/girl-icon.png") center no-repeat;
+    background-size: cover;
+}
+section .nameListWrap .nameListBox .phoneList{
+    position: absolute;
+    top: 2.1rem;
+    right: 2.5rem;
+    box-sizing: border-box;
+    width: 15.75rem;
+    height: 11rem;
+    border: 1.3rem solid #ffc43f;
+    border-top: 0.9rem solid #ffc43f;
+    border-bottom: 0.9rem solid #ffc43f;
+}
+section .nameListWrap .nameListBox .phoneList>div{
+    overflow: scroll;
+    box-sizing: border-box;
+    padding-top: 0.55rem;
+    width: 13.15rem;
+    height: 9.2rem;
+    background-color: #ffa423;
+}
+section .nameListWrap .nameListBox .phoneList>div .allPhoneNum .bg{
+    background-color: #f47b0e;
+}
+section .nameListWrap .nameListBox .phoneList span{
+    position: absolute;
+    bottom: -0.65rem;
+    right: 1.85rem;
+    width: 0.4rem;
+    height: 0.4rem;
+    border-radius: 50%;
+    background-color: #d92874;
+}
+section .nameListWrap .nameListBox .phoneList span:last-child{
+    right: 0.9rem;
+    background-color: #6788ff;
+}
+section .nameListWrap .nameListBox .phoneList>div ul li{
+    margin: 0 auto 0.3rem;
+    width: 11.8rem;
+    height: 1.9rem;
+    font-size: 1.5rem;
+    text-align: center;
+    line-height: 1.9rem;
+    color: #ffffff;
+}
+section .nameListWrap .inviteBtn{
+    margin: 1.2rem auto;
+    width: 11.4rem;
+    height: 3.8rem;
+    background: url("../images/button-3.png") center no-repeat;
+    background-size: cover;
+}
+footer>div{
+    box-sizing: border-box;
+    padding-bottom: 5rem;
+    width: 37.5rem;
+    background: url("../images/footerBoxBg_07.png") center no-repeat;
+    background-size: 100% 100%;
+}
+footer>div .title.fou{
+    height: 2.2rem;
+}
+footer>div .instructionBox{
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 5rem 2.25rem 3rem;
+    width: 31.15rem;
+    background: url("../images/footerBg.png") center no-repeat;
+    background-size: 100% 100%;
+}
+footer>div .instructionBox p{
+    font-size: 1.4rem;
+    text-indent: 2.8rem;
+    line-height: 1.7rem;
+    text-align: justify;
+    color: #496ef2;
+}
+/*弹窗样式*/
+.tc{
+    display: none;
+    position: fixed;
+    top: 12.4rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: 10000;
+}
+.tcTitle{
+    position: relative;
+    margin: 0 auto;
+    width: 22.4rem;
+    height: 3.65rem;
+}
+.tcTitle>div{
+    position: absolute;
+    width: 22.4rem;
+    height: 3.65rem;
+    font-size: 2.1rem;
+    text-align: center;
+    line-height: 3.65rem;
+    color: #3450aa;
+    background-color: #ffc43f;
+    z-index: 100;
+}
+.tc .tcTitle span{
+    position: absolute;
+    top: 1rem;
+    left: -3.5rem;
+    display: block;
+    width: 6.05rem;
+    height: 3.5rem;
+    background: url("../images/tcTitleBgL.png") center no-repeat;
+    background-size: cover;
+    z-index: 90;
+}
+.tc .tcTitle span:last-child{
+    left: 20rem;
+    background: url("../images/tcTitleBgR.png") center no-repeat;
+    background-size: cover;
+}
+.tc .tcText{
+    position: relative;
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding-top: 3rem;
+    width: 25.5rem;
+    height: 15.9rem;
+    border-radius: 0.5rem;
+    background-color: #ffffff;
+}
+.tc .tcText p{
+    margin: 0 auto;
+    font-size: 1.6rem;
+    line-height: 2rem;
+    color: #334ca9;
+}
+.tc.success .tcText p{
+    width: 18.2rem;
+}
+.tc.fail .tcText p{
+    text-align: center;
+    line-height: 5.5rem;
+}
+.tc .tcText span{
+    position: absolute;
+    bottom: 2.5rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+    display: block;
+    width: 11.4rem;
+    height: 3.7rem;
+    background: url("../images/fenxiangBtn.png") center no-repeat;
+    background-size: cover;
+}
+/*遮罩层*/
+.mask{
+    position: absolute;
+    top: 0px;
+    filter: alpha(opacity=60);
+    background-color: #333;
+    z-index: 1002;
+    left: 0px;
+    opacity: 0.6;
+    -moz-opacity: 0.6;
+}
