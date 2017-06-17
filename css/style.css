@@ -127,6 +127,7 @@ section .queryBox>div input{
     width: 9rem;
     height: 2rem;
     -webkit-appearance:none;
+    border-radius: 0;
     border: none;
     border-left: 0.1rem solid #496df2;
     font-size: 1.4rem;
