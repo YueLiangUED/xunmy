@@ -112,7 +112,7 @@ section .queryBox{
 }
 section .queryBox>div{
     box-sizing: border-box;
-    padding: 0 0.9rem;
+    padding-left:0.9rem;
     width: 21.5rem;
     height: 3.35rem;
     background-color: #ffffff;
