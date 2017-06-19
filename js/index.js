@@ -29,15 +29,16 @@ $(function () {
         $("#mask").css("height",$(document).height());
         $("#mask").css("width",$(document).width());
         $("#mask").show();
-        $('#mask').click(function () {
-            showMask();
-        });
     }
     //隐藏遮罩层
     function hideMask(){
         $("#mask").hide();
     }
-
+    $('#mask').click(function () {
+        hideMask();
+        $('.tc.success').fadeOut();
+        $('.tc.fail').fadeOut();
+     });
     /*弹窗分享按钮*/
     //成功弹窗分享按钮
     $('#succTcBtn').on('touchend',function () {
@@ -45,7 +46,8 @@ $(function () {
     });
     //失败弹窗分享按钮
     $('#failTcBtn').on('touchend',function () {
-        window.location.href = '';
+        hideMask();
+        $('.tc.fail').fadeOut();
     });
     /*首页各按钮跳转链接*/
     //点击查询按钮

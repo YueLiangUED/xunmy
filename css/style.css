@@ -314,10 +314,16 @@ footer>div .title.fou{
 footer>div .instructionBox{
     box-sizing: border-box;
     margin: 0 auto;
-    padding: 5rem 2.25rem 3rem;
+    padding: 5rem 2.25rem 1.45rem;
     width: 31.15rem;
-    background: url("../images/footerBg.png") center no-repeat;
-    background-size: 100% 100%;
+    background-color: #def6ff;
+}
+footer>div .instructionBoxBt{
+    margin: 0 auto;
+    width: 31.15rem;
+    height: 1.55rem;
+    background: url("../images/last.png") center no-repeat;
+    background-size: cover;
 }
 footer>div .instructionBox p{
     font-size: 1.4rem;
@@ -402,6 +408,10 @@ footer>div .instructionBox p{
     width: 11.4rem;
     height: 3.7rem;
     background: url("../images/fenxiangBtn.png") center no-repeat;
+    background-size: cover;
+}
+.tc .tcText #failTcBtn{
+    background: url("../images/quedingBtn.png") center no-repeat;
     background-size: cover;
 }
 /*遮罩层*/
