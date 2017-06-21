@@ -393,6 +393,7 @@ footer>div .instructionBox p{
 }
 .tc.success .tcText p{
     width: 18.2rem;
+    text-align: center;
 }
 .tc.fail .tcText p{
     text-align: center;
@@ -407,7 +408,7 @@ footer>div .instructionBox p{
     display: block;
     width: 11.4rem;
     height: 3.7rem;
-    background: url("../images/fenxiangBtn.png") center no-repeat;
+    background: url("../images/yaoqingBtn.png") center no-repeat;
     background-size: cover;
 }
 .tc .tcText #failTcBtn{

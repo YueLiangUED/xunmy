@@ -34,7 +34,8 @@ $(function () {
     function hideMask(){
         $("#mask").hide();
     }
-    $('#mask').click(function () {
+    $('#mask').on('touchend',function (e) {
+        e.preventDefault();
         hideMask();
         $('.tc.success').fadeOut();
         $('.tc.fail').fadeOut();
