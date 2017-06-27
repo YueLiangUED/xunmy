@@ -39,11 +39,14 @@ $(function () {
         hideMask();
         $('.tc.success').fadeOut();
         $('.tc.fail').fadeOut();
+        $('.shareMask').hide();
      });
     /*弹窗分享按钮*/
     //成功弹窗分享按钮
     $('#succTcBtn').on('touchend',function () {
-        window.location.href = '';
+        showMask();
+        $('.shareMask').show();
+        $('.tc.success').fadeOut();
     });
     //失败弹窗分享按钮
     $('#failTcBtn').on('touchend',function () {
